@@ -1,0 +1,16 @@
+bunch of stuff we need to do:
+
+ - create Svelte skeleton
+ - make main page (gallery feed)
+ - make artist page
+ - make page to show prior works
+ - add NDK and connect to relay
+ - feedstr relay or other: set up rules
+ - display Hakusui's feed
+ - style the site
+ - make video of Hakusui posting from Damus on her phone
+ - add features:
+   - visitors can log in / authenticate with nip07
+   - auth visitors may react to events
+   - auth visitors may reply to events
+   - auth visitors may zap events
