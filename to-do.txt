@@ -1,9 +1,10 @@
 bunch of stuff we need to do:
 
- - create Svelte skeleton
- - make main page (gallery feed)
- - make artist page
- - make page to show prior works
+ x create Svelte skeleton
+ x make main page (gallery feed)
+ x make artist page
+ - add links to nav bar in header
+ o make page to show prior works
  - add NDK and connect to relay
  - feedstr relay or other: set up rules
  - display Hakusui's feed
