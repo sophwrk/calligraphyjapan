@@ -8,7 +8,7 @@
 
         <ul class="links">
             <li><a href="/artist">Hakusui</a></li>
-            <li><a href="/artist">page 2</a></li>
+            <li><a href="/gallery">Gallery</a></li>
         </ul>
 
         <button>🇯🇵</button>

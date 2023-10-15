@@ -33,6 +33,9 @@
 		"@fontsource-variable/inconsolata": "^5.0.13",
 		"@fontsource-variable/nabla": "^5.0.15",
 		"@fontsource/open-sans": "^5.0.15",
+		"@nostr-dev-kit/ndk": "^2.0.2",
+		"dayjs": "^1.11.10",
+		"nostr-dev-kit": "^0.0.3",
 		"open-props": "^1.6.5"
 	}
 }

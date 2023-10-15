@@ -1,10 +1,32 @@
 <script lang="ts">
+	import FullPostCard from '$lib/components/FullPostCard.svelte';
+	import ndkStore from '$lib/stores/ndk';
+	// import { NDKUser } from '@nostr-dev-kit/ndk';
+	import { artistNpub } from '$lib/config';
+
+	// let hakusui: NDKUser = $ndkStore.getUser({npub: artistNpub})
+	// console.log(hakusui)
+
+	const eventsPromise = $ndkStore.fetchEvents({
+		kinds: [1],
+		authors: [artistNpub]
+	});
+	
+	console.log(eventsPromise)
 </script>
 
 <h1>Calligraphy Japan</h1>
 <h2>A gallery of Hakusui's finest calligraphy.</h2>
 <p>Learn more about the artist <a href="/artist">here</a>!</p>
 <p>My posts from Nostr:</p>
+
+{#await eventsPromise then events}
+		{#each Array.from(events) as post}
+			{#if post.pubkey == artistNpub}
+				<FullPostCard {post} />
+			{/if}
+		{/each}
+	{/await}
 
 <style>
 	h1 {
