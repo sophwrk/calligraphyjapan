@@ -11,7 +11,7 @@
             <li><a href="/artist">page 2</a></li>
         </ul>
 
-        <button>hi</button>
+        <button>🇯🇵</button>
 	</nav>
 </center>
 
