@@ -51,7 +51,7 @@
 <style>
 	p, h6 {
 		font-size: var(--font-size-3);
-		font-weight: var(--font-weight-2);
+		font-weight: var(--font-weight-3);
 		line-height: var(--line-height-3);
 		margin-block: var(--size-1);
 		text-align: left;
@@ -59,7 +59,7 @@
 		font-family: var(--font-2-sans);
 	}
 	h5 {
-		color: white;
+		color: var(--text-2);
 		font-size: 30px;
 		font-weight: var(--font-weight-5);
 		font-family: var(--font-1-sans);
@@ -68,7 +68,7 @@
 		color: inherit;
 	}
 	a:hover {
-		color: white;
+		color: var(--text-2);
 		text-decoration: none;
 	}
 	.fullPostBlock {
@@ -83,8 +83,8 @@
 		padding-right: var(--size-6);
 		padding-bottom: var(--size-3);
 		margin-bottom: var(--size-2);
-		background-color: rgb(125, 175, 200);
+		background-color: var(--red-5);
 		box-shadow: 0 0 0.5rem var(--color-shadow);
-		border: 5px solid white;
+		border: 5px solid var(--text-2);
 	}
 </style>

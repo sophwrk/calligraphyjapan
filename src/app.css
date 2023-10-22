@@ -1,33 +1,33 @@
-@import '@fontsource-variable/unbounded';
-@import '@fontsource-variable/playfair';
+@import '@fontsource-variable/merienda';
+@import '@fontsource-variable/imbue';
 @import '@fontsource-variable/inconsolata';
 
 html {
 	/* font */
-	--font-1-sans: 'Unbounded Variable', sans-serif;
-	--font-2-sans: 'Playfair Variable', sans-serif;
+	--font-1-sans: 'Merienda Variable', sans-serif;
+	--font-2-sans: 'Imbue Variable', sans-serif;
 	--font-mono: 'Inconsolata Variable', monospace;
 
 	/* dark */
 	--brand-dark: var(--orange-3);
-	--text-1-dark: rgb(238,225,224);
-	--text-2-dark: var(--gray-5);
+	--text-1-dark: var(--gray-0);
+	--text-2-dark: var(--stone-0);
 	--surface-1-dark: var(--gray-12);
 	--surface-2-dark: var(--gray-11);
 	--surface-3-dark: var(--gray-10);
 	--surface-4-dark: var(--gray-9);
-	--background-dark: var(--gradient-29);
+	--background-dark: var(--gradient-13);
 	--border-dark: var(--gray-9);
 
 	/* light */
 	--brand-light: var(--orange-10);
-	--text-1-light: rgb(238,225,224);
-	--text-2-light: var(--gray-7);
+	--text-1-light: var(--gray-0);
+	--text-2-light: var(--stone-0);
 	--surface-1-light: var(--gray-0);
 	--surface-2-light: var(--gray-1);
 	--surface-3-light: var(--gray-2);
 	--surface-4-light: var(--gray-3);
-	--background-light: var(--gradient-29);
+	--background-light: var(--gradient-13);
 	--border-light: var(--gray-4);
 }
 

@@ -4,8 +4,8 @@
 
 <center>
 	<nav>
-		<div><a href="/" class="title"><b>{config.title}</b></a></div>
-
+		<div><a href="/" class="title">{config.title}</a></div>
+		
         <ul class="links">
             <li><a href="/artist">Hakusui</a></li>
             <li><a href="/gallery">Gallery</a></li>
@@ -15,10 +15,28 @@
 	</nav>
 </center>
 
+
 <style>
+	center {
+		padding-left: 50px;
+		padding-right: 50px;
+		justify-content: space-evenly;
+		align-items: center
+	}
 	div {
+		align-self: normal;
 		font-family: var(--font-1-sans);
-        color: white;
+	}
+	button{
+		height: 50px;
+		width: 50px;
+		color: var(--blue-6);
+  		background-color: var(--red-5);
+  		border: 2.5px solid var(--text-2);
+		box-shadow: 0 0 0.5rem var(--color-shadow);
+	}
+	.title {
+		color: var(--red-5);
 	}
 	nav {
         color: inherit;
@@ -28,18 +46,15 @@
 		padding-block: var(--size-7);
 	}
     .links {
-		font-family: var(--font-2-sans);
-		font-size: var(--font-size-fluid-1);
-		font-weight: var(--font-weight-4);
         margin-block: var(--size-7);
     }
     a {
-        color: inherit;
+        color: var(--text-2);
     }
     a:hover {
 		font-style: italic;
-		text-shadow: white 1px 0 10px;
-		color: white;
+		text-shadow: var(--text-2) 1px 0 10px;
+		color: var(--text-2);
 		text-decoration: none;
 	}
 
@@ -52,7 +67,21 @@
         .links {
             display: flex;
             gap: var(--size-7);
-            margin-block: 0;
+			font-family: var(--font-2-sans);
+			font-size: 30px;
+			font-weight: var(--font-weight-4);
         }
+
+		.links li {
+			text-align: center;
+		}
+
+		.links li:first-child {
+			margin-left: 25px;
+		}
+
+		.links li:last-child {
+			margin-right: 200px;
+		}
 	}
 </style>

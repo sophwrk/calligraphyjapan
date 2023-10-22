@@ -37,17 +37,18 @@
 	.flex-container {
     	display: flex;
     	flex-wrap: wrap;
-    	justify-content: space-around;
+		justify-content: space-evenly;
 		align-items: center
   	}
 
 	.post-card {
     	width: 300px;
-    	margin: 10px;
+    	/* margin-left: 10px;
+		margin-right: 10px; */
   	}
 
 	h1 {
-		color: white;
+		color: var(--text-2);
 		font-weight: var(--font-weight-5);
 		font-size: 100px;
 		max-inline-size: var(--size-header-4);

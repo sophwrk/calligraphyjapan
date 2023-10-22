@@ -14,6 +14,9 @@ dependencies:
   '@fontsource-variable/inconsolata':
     specifier: ^5.0.14
     version: 5.0.15
+  '@fontsource-variable/merienda':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@fontsource-variable/playfair':
     specifier: ^5.0.3
     version: 5.0.3
@@ -327,6 +330,10 @@ packages:
 
   /@fontsource-variable/inconsolata@5.0.15:
     resolution: {integrity: sha512-uhkrVQDsG4HVW/nXfOFPhQVZ8zQ8h+84nz9c0MO+xxgJv3Xay+gmo2ytq3sSwXAFXLYXM5Hnd/t9ZS+NOHiccA==}
+    dev: false
+
+  /@fontsource-variable/merienda@5.0.8:
+    resolution: {integrity: sha512-W4gvmC38XrygHDkXYwrwcNmBkzHlnojEl4zHF0tc2/LD1LELro4Wcf+w5JnHYKaDAAdWBtKtxleKsAJ8CcEktg==}
     dev: false
 
   /@fontsource-variable/playfair@5.0.3:

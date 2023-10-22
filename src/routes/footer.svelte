@@ -12,7 +12,7 @@
 
 <style>
 	div {
-		color: white;
+		color: var(--text-2);
 		max-inline-size: var(--size-content-3);
 		font-size: var(--font-size-fluid-1);
 		font-family: var(--font-1-sans);
@@ -26,19 +26,19 @@
 		max-inline-size: var(--size-content-3);
 		font-size: var(--font-size-fluid-1);
 		font-family: var(--font-2-sans);
+		font-weight: var(--font-weight-3);
 	}
 
 	a {
-		color: white;
+		color: var(--text-2);
 		font-weight: var(--font-weight-5);
-		/* font-size: var(--font-size-fluid-2); */
 		font-family: var(--font-2-sans);
 	}
 
 	a:hover {
 		font-style: normal;
-		text-shadow: white 1px 0 10px;
-		color: white;
+		text-shadow: var(--text-2) 1px 0 10px;
+		color: var(--text-2);
 		text-decoration: none;
 	}
 
