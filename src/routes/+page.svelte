@@ -12,7 +12,7 @@
 		authors: [artistNpub]
 	});
 	
-	console.log(eventsPromise)
+	//console.log(eventsPromise)
 </script>
 
 <h1>Calligraphy Japan</h1>
