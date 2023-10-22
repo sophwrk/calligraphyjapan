@@ -17,15 +17,26 @@
 
 <style>
 	nav {
+        color: inherit;
+		font-size: var(--font-size-fluid-1);
+		font-weight: var(--font-weight-5);
+		font-family: var(--font-2-sans);
 		padding-block: var(--size-7);
 	}
     .links {
+		font-size: var(--font-size-fluid-1);
+		font-weight: var(--font-weight-4);
         margin-block: var(--size-7);
     }
     a {
         color: inherit;
-        text-decoration: none;
     }
+    a:hover {
+		font-style: italic;
+		text-shadow: white 1px 0 10px;
+		color: white;
+		text-decoration: none;
+	}
 
 	@media (min-width: 768px) {
 		nav {

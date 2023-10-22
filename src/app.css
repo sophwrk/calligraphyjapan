@@ -1,33 +1,33 @@
-@import '@fontsource-variable/nabla';
-@import '@fontsource-variable/cormorant';
+@import '@fontsource-variable/tilt-prism';
+@import '@fontsource-variable/imbue';
 @import '@fontsource-variable/inconsolata';
 
 html {
 	/* font */
-	--font-1-sans: 'Nabla Variable', sans-serif;
-	--font-2-sans: 'Cormorant Variable', sans-serif;
+	--font-1-sans: 'Tilt Prism Variable', sans-serif;
+	--font-2-sans: 'Imbue Variable', sans-serif;
 	--font-mono: 'Inconsolata Variable', monospace;
 
 	/* dark */
 	--brand-dark: var(--orange-3);
-	--text-1-dark: var(--gray-3);
+	--text-1-dark: rgb(238,225,224);
 	--text-2-dark: var(--gray-5);
 	--surface-1-dark: var(--gray-12);
 	--surface-2-dark: var(--gray-11);
 	--surface-3-dark: var(--gray-10);
 	--surface-4-dark: var(--gray-9);
-	--background-dark: var(--gradient-8);
+	--background-dark: var(--gradient-20);
 	--border-dark: var(--gray-9);
 
 	/* light */
 	--brand-light: var(--orange-10);
-	--text-1-light: var(--gray-8);
+	--text-1-light: rgb(238,225,224);
 	--text-2-light: var(--gray-7);
 	--surface-1-light: var(--gray-0);
 	--surface-2-light: var(--gray-1);
 	--surface-3-light: var(--gray-2);
 	--surface-4-light: var(--gray-3);
-	--background-light: none;
+	--background-light: var(--gradient-20 );
 	--border-light: var(--gray-4);
 }
 
@@ -59,7 +59,7 @@ html {
 		--border: var(--border-light);
 	}
 }
-
+/* 
 [color-scheme='dark'] {
 	color-scheme: dark;
 
@@ -72,7 +72,7 @@ html {
 	--surface-4: var(--surface-4-dark);
 	--background: var(--background-dark);
 	--border: var(--border-dark);
-}
+} */
 
 [color-scheme='light'] {
 	color-scheme: light;
@@ -105,7 +105,9 @@ h1 {
 }
 
 img {
-	border-radius: var(--radius-3);
+	margin-top: 10px;
+	border-radius: var(--radius-2);
+	max-height: 250px;
 }
 
 ul,

@@ -49,8 +49,34 @@
 </div>
 
 <style>
+	p {
+		font-size: var(--font-size-2);
+		font-weight: var(--font-weight-2);
+		line-height: var(--line-height-3);
+		margin-block: var(--size-1);
+		text-align: left;
+		color: var(--text-1);
+		font-family: var(--font-2-sans);
+	}
+	h5 {
+		color: inherit;
+		font-size: var(--font-size-fluid-1);
+		font-weight: var(--font-weight-5);
+		font-family: var(--font-2-sans);
+	}
 	h6 {
-		color: rgb(193, 127, 196);
+		color: inherit;
+		font-weight: var(--font-weight-3);
+		font-family: var(--font-2-sans);
+	}
+	a {
+		color: inherit;
+	}
+	a:hover {
+		font-style: italic;
+		text-shadow: white 1px 0 10px;
+		color: white;
+		text-decoration: none;
 	}
 	.fullPostBlock {
 		display: flex;
@@ -64,10 +90,8 @@
 		padding-right: var(--size-6);
 		padding-bottom: var(--size-3);
 		margin-bottom: var(--size-2);
-		background-color: var(--surface-4);
-		border: 1px solid var(--color-gray-2);
-		border-radius: var(--size-3);
+		background-color: var(--red-8);
 		box-shadow: 0 0 0.5rem var(--color-shadow);
-		border: 5px solid var(--teal-6);
+		border: 5px solid rgb(238,225,224);
 	}
 </style>
