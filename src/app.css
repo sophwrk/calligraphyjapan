@@ -1,11 +1,11 @@
-@import '@fontsource-variable/tilt-prism';
-@import '@fontsource-variable/imbue';
+@import '@fontsource-variable/red-rose';
+@import '@fontsource-variable/playfair';
 @import '@fontsource-variable/inconsolata';
 
 html {
 	/* font */
-	--font-1-sans: 'Tilt Prism Variable', sans-serif;
-	--font-2-sans: 'Imbue Variable', sans-serif;
+	--font-1-sans: 'Red Rose Variable', sans-serif;
+	--font-2-sans: 'Playfair Variable', sans-serif;
 	--font-mono: 'Inconsolata Variable', monospace;
 
 	/* dark */

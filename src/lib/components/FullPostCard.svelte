@@ -49,8 +49,8 @@
 </div>
 
 <style>
-	p {
-		font-size: var(--font-size-2);
+	p, h6 {
+		font-size: var(--font-size-3);
 		font-weight: var(--font-weight-2);
 		line-height: var(--line-height-3);
 		margin-block: var(--size-1);
@@ -59,22 +59,14 @@
 		font-family: var(--font-2-sans);
 	}
 	h5 {
-		color: inherit;
-		font-size: var(--font-size-fluid-1);
+		font-size: 30px;
 		font-weight: var(--font-weight-5);
-		font-family: var(--font-2-sans);
-	}
-	h6 {
-		color: inherit;
-		font-weight: var(--font-weight-3);
-		font-family: var(--font-2-sans);
+		font-family: var(--font-1-sans);
 	}
 	a {
 		color: inherit;
 	}
 	a:hover {
-		font-style: italic;
-		text-shadow: white 1px 0 10px;
 		color: white;
 		text-decoration: none;
 	}

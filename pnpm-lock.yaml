@@ -17,6 +17,12 @@ dependencies:
   '@fontsource-variable/nabla':
     specifier: ^5.0.16
     version: 5.0.17
+  '@fontsource-variable/playfair':
+    specifier: ^5.0.3
+    version: 5.0.3
+  '@fontsource-variable/red-rose':
+    specifier: ^5.0.17
+    version: 5.0.17
   '@fontsource-variable/tilt-prism':
     specifier: ^5.0.3
     version: 5.0.3
@@ -328,6 +334,14 @@ packages:
 
   /@fontsource-variable/nabla@5.0.17:
     resolution: {integrity: sha512-yIKEpzGSiJ4dvG2xHGFZIOuKdbxz+Wun+7SMwuaGomj1DhOprXf4O59h4lRTzijUgQggD2BhtsXObUZbfoeDpg==}
+    dev: false
+
+  /@fontsource-variable/playfair@5.0.3:
+    resolution: {integrity: sha512-R7uyXSI01n7Plg1UETpHa3pdRJ2ro90IyqU7d/Hd2RMNaSgUv+mevNitYy+4jB8uD5E8+MEL54/aytdVSOqw9g==}
+    dev: false
+
+  /@fontsource-variable/red-rose@5.0.17:
+    resolution: {integrity: sha512-beGj+prbnavOs6qDYaWNTW7PjQxrO8G0G4Bx30NFEcKrdFqWUs7vM7U3TzR8WAxLQtZ+l3q887tpbjR2qVLGHQ==}
     dev: false
 
   /@fontsource-variable/tilt-prism@5.0.3:

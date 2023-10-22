@@ -17,29 +17,46 @@
 
 <center>
 <h1>Calligraphy Japan</h1>
+
 <p><br />A gallery of Hakusui's finest calligraphy, imported from Nostr.</p>
 
-{#await eventsPromise then events}
-		{#each Array.from(events) as post}
-			{#if post.pubkey == artistNpub}
-				<FullPostCard {post} />
-			{/if}
-		{/each}
+<div class="flex-container">
+	{#await eventsPromise then events}
+	  {#each Array.from(events) as post}
+		{#if post.pubkey == artistNpub}
+		  <div class="post-card">
+			<FullPostCard {post} />
+		  </div>
+		{/if}
+	  {/each}
 	{/await}
+  </div>  
 </center>
 
 <style>
+	.flex-container {
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+		align-items: center
+  	}
+
+	.post-card {
+    	width: 300px;
+    	margin: 10px;
+  	}
+
 	h1 {
-		color: white;
-		font-weight: var(--font-weight-5);
-		max-inline-size: var(--size-header-4);
-		font-family: var(--font-2-sans);
 		color: inherit;
+		font-weight: var(--font-weight-5);
+		font-size: 100px;
+		max-inline-size: var(--size-header-4);
+		font-family: var(--font-1-sans);
 	}
 
 	p {
 		max-inline-size: var(--size-content-3);
-		font-size: var(--font-size-fluid-1);
+		font-size: 30px;
 		font-family: var(--font-2-sans);
 		font-weight: var(--font-weight-4);
 	}
