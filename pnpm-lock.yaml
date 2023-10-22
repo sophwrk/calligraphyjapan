@@ -14,18 +14,15 @@ dependencies:
   '@fontsource-variable/inconsolata':
     specifier: ^5.0.14
     version: 5.0.15
-  '@fontsource-variable/nabla':
-    specifier: ^5.0.16
-    version: 5.0.17
   '@fontsource-variable/playfair':
     specifier: ^5.0.3
     version: 5.0.3
   '@fontsource-variable/red-rose':
     specifier: ^5.0.17
     version: 5.0.17
-  '@fontsource-variable/tilt-prism':
-    specifier: ^5.0.3
-    version: 5.0.3
+  '@fontsource-variable/unbounded':
+    specifier: ^5.0.17
+    version: 5.0.17
   '@fontsource/open-sans':
     specifier: ^5.0.16
     version: 5.0.17
@@ -332,10 +329,6 @@ packages:
     resolution: {integrity: sha512-uhkrVQDsG4HVW/nXfOFPhQVZ8zQ8h+84nz9c0MO+xxgJv3Xay+gmo2ytq3sSwXAFXLYXM5Hnd/t9ZS+NOHiccA==}
     dev: false
 
-  /@fontsource-variable/nabla@5.0.17:
-    resolution: {integrity: sha512-yIKEpzGSiJ4dvG2xHGFZIOuKdbxz+Wun+7SMwuaGomj1DhOprXf4O59h4lRTzijUgQggD2BhtsXObUZbfoeDpg==}
-    dev: false
-
   /@fontsource-variable/playfair@5.0.3:
     resolution: {integrity: sha512-R7uyXSI01n7Plg1UETpHa3pdRJ2ro90IyqU7d/Hd2RMNaSgUv+mevNitYy+4jB8uD5E8+MEL54/aytdVSOqw9g==}
     dev: false
@@ -344,8 +337,8 @@ packages:
     resolution: {integrity: sha512-beGj+prbnavOs6qDYaWNTW7PjQxrO8G0G4Bx30NFEcKrdFqWUs7vM7U3TzR8WAxLQtZ+l3q887tpbjR2qVLGHQ==}
     dev: false
 
-  /@fontsource-variable/tilt-prism@5.0.3:
-    resolution: {integrity: sha512-UBULn/SlmZEvs5KCa2Q42koutTGDTjGH3Ns1DD1gnmryRLlBFP1cH4WxazwR3gFbqGeM0QliFrYAYgNCtomh4w==}
+  /@fontsource-variable/unbounded@5.0.17:
+    resolution: {integrity: sha512-kjkJhm2alQSCrMPIbposZdXtnOauZiigLJhx95oGzqZ75O5faQBGo1y1y6cNOVG+UM1Ya3xW6mAooRqO8dItVA==}
     dev: false
 
   /@fontsource/open-sans@5.0.17:

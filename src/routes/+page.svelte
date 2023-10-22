@@ -47,7 +47,7 @@
   	}
 
 	h1 {
-		color: inherit;
+		color: white;
 		font-weight: var(--font-weight-5);
 		font-size: 100px;
 		max-inline-size: var(--size-header-4);

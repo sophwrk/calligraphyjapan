@@ -59,6 +59,7 @@
 		font-family: var(--font-2-sans);
 	}
 	h5 {
+		color: white;
 		font-size: 30px;
 		font-weight: var(--font-weight-5);
 		font-family: var(--font-1-sans);
@@ -82,8 +83,8 @@
 		padding-right: var(--size-6);
 		padding-bottom: var(--size-3);
 		margin-bottom: var(--size-2);
-		background-color: var(--red-8);
+		background-color: rgb(125, 175, 200);
 		box-shadow: 0 0 0.5rem var(--color-shadow);
-		border: 5px solid rgb(238,225,224);
+		border: 5px solid white;
 	}
 </style>

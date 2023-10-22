@@ -4,7 +4,7 @@
 
 <center>
 	<nav>
-		<a href="/" class="title"><b>{config.title}</b></a>
+		<div><a href="/" class="title"><b>{config.title}</b></a></div>
 
         <ul class="links">
             <li><a href="/artist">Hakusui</a></li>
@@ -16,6 +16,10 @@
 </center>
 
 <style>
+	div {
+		font-family: var(--font-1-sans);
+        color: white;
+	}
 	nav {
         color: inherit;
 		font-size: var(--font-size-fluid-1);
@@ -24,6 +28,7 @@
 		padding-block: var(--size-7);
 	}
     .links {
+		font-family: var(--font-2-sans);
 		font-size: var(--font-size-fluid-1);
 		font-weight: var(--font-weight-4);
         margin-block: var(--size-7);
