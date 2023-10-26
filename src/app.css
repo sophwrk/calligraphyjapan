@@ -1,11 +1,11 @@
 @import '@fontsource-variable/merienda';
-@import '@fontsource-variable/imbue';
+@import '@fontsource-variable/cormorant';
 @import '@fontsource-variable/inconsolata';
 
 html {
 	/* font */
 	--font-1-sans: 'Merienda Variable', sans-serif;
-	--font-2-sans: 'Imbue Variable', sans-serif;
+	--font-2-sans: 'Cormorant Variable', sans-serif;
 	--font-mono: 'Inconsolata Variable', monospace;
 
 	/* dark */

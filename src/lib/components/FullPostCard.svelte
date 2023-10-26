@@ -41,19 +41,17 @@
 </script>
 
 <div class="fullPostBlock">
-	<h5><a href="https://primal.net/profile/{artistNpub}" target="_blank">Hakusui</a></h5>
-	<h6>
-		{dayjs.unix(post.created_at ?? 0).format('MMM D, YYYY h:mm a')}<br />&nbsp;
-	</h6>
 	<p>{@html convertLinkToImage(addLineBreaks(linkify(content)))}</p>
+	<h5><a href="https://primal.net/profile/{artistNpub}" target="_blank">-Hakusui</a></h5>
+	<h6>
+		{dayjs.unix(post.created_at ?? 0).format('M. D. YYYY')}<br />&nbsp;
+	</h6>
 </div>
 
 <style>
 	p, h6 {
 		font-size: var(--font-size-3);
 		font-weight: var(--font-weight-3);
-		line-height: var(--line-height-3);
-		margin-block: var(--size-1);
 		text-align: left;
 		color: var(--text-1);
 		font-family: var(--font-2-sans);
@@ -63,6 +61,7 @@
 		font-size: 30px;
 		font-weight: var(--font-weight-5);
 		font-family: var(--font-1-sans);
+		/* text-align: right; */
 	}
 	a {
 		color: inherit;
